@@ -3,13 +3,11 @@
   hosts: GOOGLE
   gather_facts: no 
   tasks: 
-  - name: Install latest version of "Gradle" 
+  - name: Instalando pacotes default  
     apt:
-      name: gradle
-      state: latest
+      pkg:
+      - git
+      - gradle
+      - openjdk-11-jdk-headless
+      - httpd
 
-  - name: Install latest version of "openjdk-7-jdk" ignoring "install-recommends"
-    apt:
-      name: openjdk-11-jdk-headless
-      state: latest
-      install_recommends: no
