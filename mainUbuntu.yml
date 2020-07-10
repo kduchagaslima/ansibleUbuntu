@@ -9,5 +9,5 @@
       - git
       - gradle
       - openjdk-11-jdk-headless
-      - httpd
+      - nginx-full
       state: latest
