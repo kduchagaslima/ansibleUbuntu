@@ -5,9 +5,9 @@
   tasks: 
   - name: Instalando pacotes default  
     apt:
-      pkg:
+      name:
       - git
       - gradle
       - openjdk-11-jdk-headless
       - httpd
-
+      state: latest
