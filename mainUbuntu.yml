@@ -9,5 +9,6 @@
       - git
       - gradle
       - openjdk-11-jdk-headless
-      - nginx-full
+      - nginx
+      - docker.io
       state: latest
