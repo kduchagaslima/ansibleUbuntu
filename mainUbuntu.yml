@@ -10,6 +10,6 @@
 
   - name: Install latest version of "openjdk-7-jdk" ignoring "install-recommends"
     apt:
-      name: openjdk-7-jdk
+      name: openjdk-11-jdk-headless
       state: latest
       install_recommends: no
