@@ -1,0 +1,15 @@
+---
+- name: Gerenciando Ubuntu na nuvem Google Cloud
+  hosts: GOOGLE
+  gather_facts: no 
+  tasks: 
+  - name: Install latest version of "Gradle" 
+    apt:
+      name: gradle
+      state: latest
+
+  - name: Install latest version of "openjdk-7-jdk" ignoring "install-recommends"
+    apt:
+      name: openjdk-7-jdk
+      state: latest
+      install_recommends: no
