@@ -1,0 +1,5 @@
+[GOOGLE]
+104.197.107.187
+[GOOGLE:vars]
+ansible_user=root
+ansible_ssh_pass=Rafinha.123

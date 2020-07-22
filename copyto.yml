@@ -1,0 +1,12 @@
+---
+- name: Copy from localhost to Google Cloud
+  hosts: GOOGLE
+  gather_facts: no
+  tasks:
+  - name: Copy file with owner and permissions
+    copy:
+      src: /mnt/c/Users/celima/Downloads/Openshift_pipeline_v2.pptx
+      dest: /tmp/
+      owner: root
+      group: root
+      mode: '0644'
