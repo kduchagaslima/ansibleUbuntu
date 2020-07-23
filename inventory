@@ -1,5 +1,5 @@
 [GOOGLE]
-104.197.107.187
+35.192.61.255
 [GOOGLE:vars]
 ansible_user=root
 ansible_ssh_pass=Rafinha.123
